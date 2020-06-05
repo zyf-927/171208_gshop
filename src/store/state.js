@@ -6,4 +6,8 @@ export default{
     categorys:[], //食品分类数组
      shops:[],//商家的数组
     userInfo: {},//用户信息
+    goods: [],//商品列表
+    ratings: [],//商家评价列表
+    info:{},//商家信息
+    cartFoods: [],//购物车中的实物的列表
 }
