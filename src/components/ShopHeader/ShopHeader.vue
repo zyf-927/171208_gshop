@@ -1,8 +1,9 @@
 <template>
+
   <div class="shop-header">
     <nav class="shop-nav" :style="{backgroundImage: `url(${info.bgImg})`}">
       <a class="back" @click="$router.back()">
-        <i class="iconfont icon-arrow_left"></i>
+        <i class="iconfont icon-jiantou2"></i>
       </a>
     </nav>
     <div class="shop-content" @click="toggleShopShow">
@@ -164,7 +165,7 @@
         position: absolute
         top: 10px
         left: 0
-        .icon-arrow_left
+        .icon-jiantou2
           display: block
           padding: 5px
           font-size: 20px
@@ -506,4 +507,5 @@
         top 0
         left 0
         background-color rgba(0, 0, 0, .5)
+
 </style>
